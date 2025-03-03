@@ -11,4 +11,7 @@ export default defineConfig({
       "@": path.resolve(__dirname, "src"), // これを追加
     },
   },
+  base: process.env.GITHUB_PAGES  // この行を追加
+    ? "reactailwind"            // この行を追加
+    : "./",                     // この行を追加
 })
