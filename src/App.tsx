@@ -39,7 +39,7 @@ function App() {
                     song.charactors.forEach((name) => {
                         // ここでは仮に icon の URL を生成（実際は適切な URL を設定してください）
                         if (!charMap[name]) {
-                            charMap[name] = `../public/img/${name}.png`;
+                            charMap[name] = `img/${name}.png`;
                         }
                     });
                 });
