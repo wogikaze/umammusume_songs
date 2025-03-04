@@ -22,7 +22,7 @@ function App() {
     const [characters, setCharacters] = useState<Character[]>([]);
 
     // ページネーション用の状態
-    const itemsPerPage = 10;
+    const itemsPerPage = 24;
     const [currentPage, setCurrentPage] = useState(1);
 
     // データの取得→整理
